@@ -20,6 +20,8 @@ object Maps {
       println(s"key: $key, value: " + my_map(key))
       // println()
     }
+
+    println(my_map.contains(8023))
   }
 
 }
